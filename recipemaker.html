@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Form Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Select Ingredients</h1>
+    <form id="dataForm">
+        <div name="vegetables">
+            <h3>Vegetables</h3>
+            <button class="button" type="button" id="Garlic">Garlic</button>
+            <button class="button" type="button" id="Onion">Onion</button>
+            <button class="button" type="button" id="Bell pepper">Bell pepper</button>
+            <button class="button" type="button" id="Scallion">Scallion</button>
+            <button class="button" type="button" id="Carrot">Carrot</button>
+            <button class="button" type="button" id="Tomato">Tomato</button>
+            <button class="button" type="button" id="Potato">Potato</button>
+            <button class="button" type="button" id="Celery">Celery</button>
+            <button class="button" type="button" id="Avocado">Avocado</button>
+            <button class="button" type="button" id="Zucchini">Zucchini</button>
+            <button class="button" type="button" id="Cucumber">Cucumber</button>
+            <button class="button" type="button" id="Corn">Corn</button>
+            <button class="button" type="button" id="Spinach">Spinach</button>
+            <button class="button" type="button" id="Broccoli">Broccoli</button>
+            <button class="button" type="button" id="Cauliflower">Cauliflower</button>
+            <button class="button" type="button" id="Lettuce">Lettuce</button>
+            <button class="button" type="button" id="Turnip">Turnip</button>
+            <button class="button" type="button" id="Peas">Peas</button>
+            <button class="button" type="button" id="Squash">Squash</button>
+            <button class="button" type="button" id="Mushrooms">Mushrooms</button>
+        </div>
+
+        <div name="fruits">
+            <h3>Fruits</h3>
+            <button class="button" type="button" id="Apple">Apple</button>
+            <button class="button" type="button" id="Banana">Banana</button>
+            <button class="button" type="button" id="Orange">Orange</button>
+            <button class="button" type="button" id="Lemon">Lemon</button>
+            <button class="button" type="button" id="Lime">Lime</button>
+            <button class="button" type="button" id="Peach">Peach</button>
+            <button class="button" type="button" id="Plums">Plums</button>
+            <button class="button" type="button" id="Pineapple">Pineapple</button>
+            <button class="button" type="button" id="Mango">Mango</button>
+            <button class="button" type="button" id="Coconut">Coconut</button>
+            <button class="button" type="button" id="Pear">Pear</button>
+            <button class="button" type="button" id="Kiwi">Kiwi</button>
+            <button class="button" type="button" id="Strawberry">Strawberry</button>
+            <button class="button" type="button" id="Raspberry">Raspberry</button>
+            <button class="button" type="button" id="Blueberry">Blueberry</button>
+            <button class="button" type="button" id="Cherry">Cherry</button>
+        </div>
+
+        <div name="meat">
+            <h3>Meat</h3>
+            <button class="button" type="button" id="Chicken">Chicken</button>
+            <button class="button" type="button" id="Beef">Beef</button>
+            <button class="button" type="button" id="Fish">Fish</button>
+            <button class="button" type="button" id="Pork">Pork</button>
+            <button class="button" type="button" id="Bacon">Bacon</button>
+            <button class="button" type="button" id="Turkey">Turkey</button>
+            <button class="button" type="button" id="Lamb">Lamb</button>
+        </div>
+
+        <div name="dairy">
+            <h3>Dairy</h3>
+            <button class="button" type="button" id="Milk">Milk</button>
+            <button class="button" type="button" id="Butter">Butter</button>
+            <button class="button" type="button" id="Yogurt">Yogurt</button>
+            <button class="button" type="button" id="Cheese">Cheese</button>
+            <button class="button" type="button" id="Heavy Cream">Heavy Cream</button>
+        </div>
+
+        <div name="grains">
+            <h3>Grains</h3>
+            <button class="button" type="button" id="Bread">Bread</button>
+            <button class="button" type="button" id="Rice">Rice</button>
+            <button class="button" type="button" id="Pasta">Pasta</button>
+            <button class="button" type="button" id="Flour">Flour</button>
+            <button class="button" type="button" id="Oats">Oats</button>
+            <button class="button" type="button" id="Tortilla">Tortilla</button>
+            <button class="button" type="button" id="Quinoa">Quinoa</button>
+        </div>
+
+        <div name="herbs">
+            <h3>Herbs & Spices</h3>
+            <button class="button" type="button" id="Salt">Salt</button>
+            <button class="button" type="button" id="Pepper">Pepper</button>
+            <button class="button" type="button" id="Cinnamon">Cinnamon</button>
+            <button class="button" type="button" id="Parsley">Parsley</button>
+            <button class="button" type="button" id="Basil">Basil</button>
+            <button class="button" type="button" id="Garlic Powder">Garlic Powder</button>
+            <button class="button" type="button" id="Oregano">Oregano</button>
+            <button class="button" type="button" id="Nutmeg">Nutmeg</button>
+            <button class="button" type="button" id="Cayenne Pepper">Cayenne Pepper</button>
+            <button class="button" type="button" id="Paprika">Paprika</button>
+            <button class="button" type="button" id="Clove">Clove</button>
+            <button class="button" type="button" id="Mint">Mint</button>
+            <button class="button" type="button" id="Sage">Sage</button>
+            <button class="button" type="button" id="Peppercorn">Peppercorn</button>
+            <button class="button" type="button" id="Cumin">Cumin</button>
+        </div>
+
+        <div>
+            <button type="button" onclick="downloadFile()" id="done">Done</button>
+        </div>
+    </form>
+
+    <script>
+        let ingredients = [];
+
+        const buttons = document.querySelectorAll('.button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const ingredient = button.textContent;
+                if (!ingredients.includes(ingredient)) {
+                    ingredients.push(ingredient);
+                    button.style.backgroundColor = 'green';
+                    button.style.transition = '0.3s';
+                }
+            });
+        });
+
+        function downloadFile() {
+            const blob = new Blob([ingredients.join("\n")], { type: "text/plain" });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'ingredients.txt';
+            link.click();
+        }
+    </script>
+</body>
+</html>
